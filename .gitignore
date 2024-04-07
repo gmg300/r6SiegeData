@@ -1,0 +1,6 @@
+credentials.json
+.env
+.cache
+/exports
+/rawData
+/node_modules

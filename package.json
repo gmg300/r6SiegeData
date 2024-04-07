@@ -1,0 +1,23 @@
+{
+  "name": "r6siegedata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "node ./scripts/fetch.js",
+    "process": "node ./scripts/process.js",
+    "write": "node ./scripts/write.js",
+    "send": "node ./scripts/send.js"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.4.6",
+    "discord.js": "^14.14.1",
+    "googleapis": "^134.0.0",
+    "lodash": "^4.17.21",
+    "puppeteer": "^22.6.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
